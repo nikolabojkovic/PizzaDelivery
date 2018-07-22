@@ -7,21 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047C6614210133C700A6C6D1 /* CustomPizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C6613210133C700A6C6D1 /* CustomPizzaViewController.swift */; };
+		047C6616210133DF00A6C6D1 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C6615210133DF00A6C6D1 /* CartViewController.swift */; };
+		047C66182101347600A6C6D1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C66172101347600A6C6D1 /* DetailsViewController.swift */; };
+		047C661A2101347D00A6C6D1 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C66192101347D00A6C6D1 /* CheckoutViewController.swift */; };
+		047C66202103997400A6C6D1 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C661F2103997400A6C6D1 /* Pizza.swift */; };
+		047C662221039C8100A6C6D1 /* LargePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C662121039C8100A6C6D1 /* LargePizza.swift */; };
+		047C662521039EB800A6C6D1 /* MediumPIzza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C662421039EB800A6C6D1 /* MediumPIzza.swift */; };
+		047C662721039F3900A6C6D1 /* SmallPIzza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C662621039F3900A6C6D1 /* SmallPIzza.swift */; };
+		047C662B21039FE400A6C6D1 /* PIzzaDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C662A21039FE400A6C6D1 /* PIzzaDecorator.swift */; };
+		047C662D2103A3C900A6C6D1 /* Cheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C662C2103A3C900A6C6D1 /* Cheese.swift */; };
+		047C662F2103A65300A6C6D1 /* Ham.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C662E2103A65300A6C6D1 /* Ham.swift */; };
+		047C66312103A6B800A6C6D1 /* Peppers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C66302103A6B800A6C6D1 /* Peppers.swift */; };
+		047C66332103A91B00A6C6D1 /* Mushrooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C66322103A91B00A6C6D1 /* Mushrooms.swift */; };
+		047C66352103B7BD00A6C6D1 /* PizzaName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C66342103B7BD00A6C6D1 /* PizzaName.swift */; };
+		047C66392103E69600A6C6D1 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C66382103E69600A6C6D1 /* Cart.swift */; };
+		047C663C2104D82D00A6C6D1 /* PizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C663B2104D82D00A6C6D1 /* PizzaFactory.swift */; };
+		047C663F2104DA0800A6C6D1 /* PizzaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C663E2104DA0800A6C6D1 /* PizzaType.swift */; };
+		047C66412104E04E00A6C6D1 /* PizzaBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C66402104E04E00A6C6D1 /* PizzaBuilder.swift */; };
+		047C66432104E1E300A6C6D1 /* PIzzaSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C66422104E1E300A6C6D1 /* PIzzaSize.swift */; };
+		047C66452104F95600A6C6D1 /* PizzaIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C66442104F95600A6C6D1 /* PizzaIngredients.swift */; };
 		04C287C92101163C00BC2A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C287C82101163C00BC2A05 /* AppDelegate.swift */; };
-		04C287CB2101163C00BC2A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C287CA2101163C00BC2A05 /* ViewController.swift */; };
+		04C287CB2101163C00BC2A05 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C287CA2101163C00BC2A05 /* MenuViewController.swift */; };
 		04C287CE2101163D00BC2A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C287CC2101163D00BC2A05 /* Main.storyboard */; };
-		04C287D02101164100BC2A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C287CF2101164100BC2A05 /* Assets.xcassets */; };
 		04C287D32101164100BC2A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C287D12101164100BC2A05 /* LaunchScreen.storyboard */; };
+		04C287DD21011D4900BC2A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C287DC21011D4900BC2A05 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		047C6613210133C700A6C6D1 /* CustomPizzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPizzaViewController.swift; sourceTree = "<group>"; };
+		047C6615210133DF00A6C6D1 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		047C66172101347600A6C6D1 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		047C66192101347D00A6C6D1 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		047C661F2103997400A6C6D1 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		047C662121039C8100A6C6D1 /* LargePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargePizza.swift; sourceTree = "<group>"; };
+		047C662421039EB800A6C6D1 /* MediumPIzza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumPIzza.swift; sourceTree = "<group>"; };
+		047C662621039F3900A6C6D1 /* SmallPIzza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallPIzza.swift; sourceTree = "<group>"; };
+		047C662A21039FE400A6C6D1 /* PIzzaDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIzzaDecorator.swift; sourceTree = "<group>"; };
+		047C662C2103A3C900A6C6D1 /* Cheese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheese.swift; sourceTree = "<group>"; };
+		047C662E2103A65300A6C6D1 /* Ham.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ham.swift; sourceTree = "<group>"; };
+		047C66302103A6B800A6C6D1 /* Peppers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peppers.swift; sourceTree = "<group>"; };
+		047C66322103A91B00A6C6D1 /* Mushrooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mushrooms.swift; sourceTree = "<group>"; };
+		047C66342103B7BD00A6C6D1 /* PizzaName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaName.swift; sourceTree = "<group>"; };
+		047C66382103E69600A6C6D1 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		047C663B2104D82D00A6C6D1 /* PizzaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaFactory.swift; sourceTree = "<group>"; };
+		047C663E2104DA0800A6C6D1 /* PizzaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaType.swift; sourceTree = "<group>"; };
+		047C66402104E04E00A6C6D1 /* PizzaBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaBuilder.swift; sourceTree = "<group>"; };
+		047C66422104E1E300A6C6D1 /* PIzzaSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIzzaSize.swift; sourceTree = "<group>"; };
+		047C66442104F95600A6C6D1 /* PizzaIngredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaIngredients.swift; sourceTree = "<group>"; };
 		04C287C52101163C00BC2A05 /* PizzaDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C287C82101163C00BC2A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04C287CA2101163C00BC2A05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04C287CA2101163C00BC2A05 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		04C287CD2101163D00BC2A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04C287CF2101164100BC2A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C287D22101164100BC2A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C287D42101164100BC2A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C287DC21011D4900BC2A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +75,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047C661C2101350C00A6C6D1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04C287CA2101163C00BC2A05 /* MenuViewController.swift */,
+				047C66172101347600A6C6D1 /* DetailsViewController.swift */,
+				047C66192101347D00A6C6D1 /* CheckoutViewController.swift */,
+				047C6613210133C700A6C6D1 /* CustomPizzaViewController.swift */,
+				047C6615210133DF00A6C6D1 /* CartViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		047C661D21013CFB00A6C6D1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04C287CC2101163D00BC2A05 /* Main.storyboard */,
+				04C287D12101164100BC2A05 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		047C661E2103995200A6C6D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				047C662921039FCB00A6C6D1 /* ConcreteDecorators */,
+				047C662821039FC400A6C6D1 /* Decorator */,
+				047C661F2103997400A6C6D1 /* Pizza.swift */,
+				047C662321039C8A00A6C6D1 /* ConcreteComponents */,
+				047C66382103E69600A6C6D1 /* Cart.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		047C662321039C8A00A6C6D1 /* ConcreteComponents */ = {
+			isa = PBXGroup;
+			children = (
+				047C662121039C8100A6C6D1 /* LargePizza.swift */,
+				047C662421039EB800A6C6D1 /* MediumPIzza.swift */,
+				047C662621039F3900A6C6D1 /* SmallPIzza.swift */,
+			);
+			path = ConcreteComponents;
+			sourceTree = "<group>";
+		};
+		047C662821039FC400A6C6D1 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				047C662A21039FE400A6C6D1 /* PIzzaDecorator.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		047C662921039FCB00A6C6D1 /* ConcreteDecorators */ = {
+			isa = PBXGroup;
+			children = (
+				047C662C2103A3C900A6C6D1 /* Cheese.swift */,
+				047C662E2103A65300A6C6D1 /* Ham.swift */,
+				047C66302103A6B800A6C6D1 /* Peppers.swift */,
+				047C66322103A91B00A6C6D1 /* Mushrooms.swift */,
+				047C66342103B7BD00A6C6D1 /* PizzaName.swift */,
+			);
+			path = ConcreteDecorators;
+			sourceTree = "<group>";
+		};
+		047C663A2104D80300A6C6D1 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				047C663B2104D82D00A6C6D1 /* PizzaFactory.swift */,
+				047C66402104E04E00A6C6D1 /* PizzaBuilder.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		047C663D2104D9E700A6C6D1 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				047C663E2104DA0800A6C6D1 /* PizzaType.swift */,
+				047C66422104E1E300A6C6D1 /* PIzzaSize.swift */,
+				047C66442104F95600A6C6D1 /* PizzaIngredients.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		04C287BC2101163C00BC2A05 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +176,13 @@
 		04C287C72101163C00BC2A05 /* PizzaDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				047C663D2104D9E700A6C6D1 /* Enums */,
+				047C663A2104D80300A6C6D1 /* Infrastructure */,
+				047C661E2103995200A6C6D1 /* Models */,
+				047C661C2101350C00A6C6D1 /* ViewControllers */,
 				04C287C82101163C00BC2A05 /* AppDelegate.swift */,
-				04C287CA2101163C00BC2A05 /* ViewController.swift */,
-				04C287CC2101163D00BC2A05 /* Main.storyboard */,
-				04C287CF2101164100BC2A05 /* Assets.xcassets */,
-				04C287D12101164100BC2A05 /* LaunchScreen.storyboard */,
+				047C661D21013CFB00A6C6D1 /* Storyboards */,
+				04C287DC21011D4900BC2A05 /* Assets.xcassets */,
 				04C287D42101164100BC2A05 /* Info.plist */,
 			);
 			path = PizzaDelivery;
@@ -123,7 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C287D32101164100BC2A05 /* LaunchScreen.storyboard in Resources */,
-				04C287D02101164100BC2A05 /* Assets.xcassets in Resources */,
+				04C287DD21011D4900BC2A05 /* Assets.xcassets in Resources */,
 				04C287CE2101163D00BC2A05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +259,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C287CB2101163C00BC2A05 /* ViewController.swift in Sources */,
+				047C6616210133DF00A6C6D1 /* CartViewController.swift in Sources */,
+				04C287CB2101163C00BC2A05 /* MenuViewController.swift in Sources */,
+				047C663C2104D82D00A6C6D1 /* PizzaFactory.swift in Sources */,
+				047C662D2103A3C900A6C6D1 /* Cheese.swift in Sources */,
+				047C66202103997400A6C6D1 /* Pizza.swift in Sources */,
 				04C287C92101163C00BC2A05 /* AppDelegate.swift in Sources */,
+				047C662521039EB800A6C6D1 /* MediumPIzza.swift in Sources */,
+				047C663F2104DA0800A6C6D1 /* PizzaType.swift in Sources */,
+				047C66332103A91B00A6C6D1 /* Mushrooms.swift in Sources */,
+				047C66452104F95600A6C6D1 /* PizzaIngredients.swift in Sources */,
+				047C662221039C8100A6C6D1 /* LargePizza.swift in Sources */,
+				047C66412104E04E00A6C6D1 /* PizzaBuilder.swift in Sources */,
+				047C662B21039FE400A6C6D1 /* PIzzaDecorator.swift in Sources */,
+				047C66352103B7BD00A6C6D1 /* PizzaName.swift in Sources */,
+				047C662721039F3900A6C6D1 /* SmallPIzza.swift in Sources */,
+				047C6614210133C700A6C6D1 /* CustomPizzaViewController.swift in Sources */,
+				047C66392103E69600A6C6D1 /* Cart.swift in Sources */,
+				047C661A2101347D00A6C6D1 /* CheckoutViewController.swift in Sources */,
+				047C66432104E1E300A6C6D1 /* PIzzaSize.swift in Sources */,
+				047C66312103A6B800A6C6D1 /* Peppers.swift in Sources */,
+				047C66182101347600A6C6D1 /* DetailsViewController.swift in Sources */,
+				047C662F2103A65300A6C6D1 /* Ham.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
